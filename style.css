@@ -20,14 +20,14 @@ div {
     padding: 0px;
   }
 
-#definition {
+#word {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #line {
-  margin: 0 -70px;
+  margin: 0 -40px;
 }
 
 .item {
@@ -47,7 +47,7 @@ div {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
+    min-width: 120px;
     top: 170%;
     left: 50%;
     margin-left: -60px;
@@ -56,7 +56,7 @@ div {
     color: #5d6d7e;
     text-align: center;
     border-radius: 6px;
-    padding: 5px 0;
+    padding: 5px 5px;
 
     /* Position the tooltip */
     position: absolute;
@@ -85,6 +85,7 @@ h2 {
 
 p {
     color: #34495e;
+    text-align: center;
 }
 
 a {
@@ -100,7 +101,7 @@ a:hover {
 
 hr {
   transform: rotate(92deg);
-  width: 200px;
+  width: 100px;
   height: 2px;
   color: #e59866;
   background-color: #e59866;
