@@ -78,6 +78,15 @@ div {
     visibility: visible;
 }
 
+.link-home {
+  font-size: 70%;
+  text-decoration: none;
+}
+
+.link-home:hover {
+  color: #d35400;
+}
+
 h2 {
     color: #d35400;
     font-size: 300%;
@@ -111,4 +120,24 @@ hr {
   margin-left: 0em;
   margin-right: 0em;
   padding: none;
+}
+
+button {
+  margin-left: auto;
+  margin right: auto;
+  color: #fbfcfc;
+  background-color: #e59866;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 100%;
+  font-family: monospace;
+  radius: 5px;
+}
+
+button:hover {
+  background-color: #fbfcfc;
+  color: #d35400;
+  padding: 7px;
+  border: 3px solid #e59866;
 }
